@@ -9,3 +9,5 @@ alembic==1.11.1
 psycopg2-binary==2.9.6
 websockets==11.0.3
 APScheduler==3.10.1
+pytest==7.3.2
+pytest-async==0.1.1
