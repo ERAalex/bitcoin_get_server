@@ -1,7 +1,7 @@
 import websockets
 import json
 from datetime import datetime
-from core import database
+import time
 from models import deribit_coins_model
 
 import asyncio
@@ -19,11 +19,11 @@ async def async_main(data: dict):
             deribit_coins_model.insert(), [
                 {"coin_name": "btc",
                  "price": str(data["btc"]),
-                 "created_at": data['time']},
+                 "created_at": str(data['time'])},
 
                 {"coin_name":  'eth',
                  "price": str(data['eth']),
-                 "created_at": data['time']},
+                 "created_at": str(data['time'])},
             ]
         )
 
@@ -64,10 +64,11 @@ async def call_api():
 
             get_currency['btc'] = json_par_btc['result']['index_price']
             get_currency['eth'] = json_par_eth['result']['index_price']
-            now = datetime.now()
-            get_currency['time'] = now
-            # get_currency['time'] = now.strftime("%m/%d/%y-%H:%M")
-            print(get_currency)
+
+            date_time = datetime.now()
+            unix_time = time.mktime(date_time.timetuple())
+
+            get_currency['time'] = unix_time
 
             await async_main(get_currency)
 
