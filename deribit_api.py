@@ -3,14 +3,15 @@ import json
 from datetime import datetime
 import time
 from models import deribit_coins_model
+from core import async_url
 
-import asyncio
 from sqlalchemy.ext.asyncio import create_async_engine
 
 
 async def async_main(data: dict):
+
     engine = create_async_engine(
-        "postgresql+asyncpg://postgres:1221@localhost/job_test_bitcoin_fastapi", echo=True,
+        async_url, echo=True,
     )
 
     async with engine.begin() as conn:
@@ -26,7 +27,6 @@ async def async_main(data: dict):
                  "created_at": str(data['time'])},
             ]
         )
-
 
 
 async def call_api():
