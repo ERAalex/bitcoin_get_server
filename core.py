@@ -16,9 +16,6 @@ import asyncpg
 import databases
 
 
-# SECRET_KEY = env('SECRET_KEY', default='SOME_SECRET_KEY')
-
-
 # PostgreSQL - settings
 
 DB_USER = env("DB_USER", default="user")
@@ -30,7 +27,6 @@ SQLALCHEMY_DATABASE_URL = (
 )
 
 database = databases.Database(SQLALCHEMY_DATABASE_URL)
-
 
 
 
