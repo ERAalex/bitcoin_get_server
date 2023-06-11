@@ -8,7 +8,7 @@ async def main():
 
     scheduler = AsyncIOScheduler(timezone='Europe/Moscow')
     # scheduler.add_job(foo, trigger='interval', seconds=1)
-    scheduler.add_job(call_api, trigger='interval', seconds=5)
+    result = scheduler.add_job(call_api, trigger='interval', seconds=2)
     scheduler.start()
 
 
