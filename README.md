@@ -23,15 +23,16 @@ If you are interested in my work, I am open to job offers:
 
 1) An asynchronous client on aiohhtp for the Deribit crypto exchange.<br/>
 Scheduler_work.py - app/client take the current price of BTC and ETH from the exchange every minute, and then
-save the currency ticker, current price and time in UNIX to the database.<br/><br/>
+save the currency ticker, current price and time in UNIX to the database. <br>Migrations are possible thanks to the alembic library.<br/><br/>
 
 2) An external API for processing stored data on FastAPI. Methods:<br/>
 - Getting all the saved data for the specified currency<br/>
 - Getting the latest currency price<br/>
 - Getting the price of a currency with a date filter<br/><br/>
 
+3) Work with Api - Deribit cryptocurrency market - https://docs.deribit.com <br/><br/>
 
-## Technologies
+## Main Technologies:
 Main:<br/>
 [![SkillIcons](https://skillicons.dev/icons?i=python)](https://skillicons.dev) PYTHON - FastApi <br/>
 
@@ -39,14 +40,15 @@ DATABASES:<br/>
 [![SkillIcons](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev) PostgreSQL <br/>
 
 ## Additional tech:<br/>
-1 asyncio<br/>
-2 aiohttp<br/>
-3 apscheduler<br/>
-4 sqlalchemy 2.0+ (async)<br/>
-5 postgresql<br/>
-6 fastapi<br/>
-7 dataclasses<br/>
-8 pytest-asyncio/pytest<br/>
+1. asyncio<br/>
+2. aiohttp<br/>
+3. apscheduler<br/>
+4. sqlalchemy 2.0+ (async)<br/>
+5. postgresql<br/>
+6. fastapi<br/>
+7. dataclasses<br/>
+8. pytest-asyncio/pytest<br/>
+9. Alembic<br>
 
 <br/>
 <br/><br/>
