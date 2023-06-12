@@ -7,7 +7,7 @@
   <a href="https://www.linkedin.com/in/alexander-espinosa-rozov-b3b270121/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 <br>
-<p><a href="https://espinosamaria.ru/" target="_blank">➡️ Check out my work - Website. Teacher's business card website</a></p>
+<p>➡️ Hello, there!</a></p>
 
 ## Attention 
 If you are interested in my work, I am open to job offers:
