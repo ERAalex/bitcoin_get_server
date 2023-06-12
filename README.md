@@ -2,7 +2,7 @@
 #### E.R.A. - Espinosa Rozov Alexander - python developer.
 # Project - Deribit cryptocurrency market.
 
-<img src="">
+<img src="https://github.com/ERAalex/bitcoin_get_server/blob/main/deribit_fastapi.jpg">
 <p>
   <a href="https://www.linkedin.com/in/alexander-espinosa-rozov-b3b270121/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
@@ -39,14 +39,14 @@ DATABASES:<br/>
 [![SkillIcons](https://skillicons.dev/icons?i=postgres)](https://skillicons.dev) PostgreSQL <br/>
 
 ## Additional tech:<br/>
-1 asyncio
-2 aiohttp
-3 apscheduler
-4 sqlalchemy 2.0+ (async)
-5 postgresql
-6 fastapi
-7 dataclasses
-8 pytest-asyncio/pytest
+1 asyncio<br/>
+2 aiohttp<br/>
+3 apscheduler<br/>
+4 sqlalchemy 2.0+ (async)<br/>
+5 postgresql<br/>
+6 fastapi<br/>
+7 dataclasses<br/>
+8 pytest-asyncio/pytest<br/>
 
 <br/>
 <br/><br/>
